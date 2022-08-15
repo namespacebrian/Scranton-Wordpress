@@ -1,4 +1,4 @@
 <?php
 
-// Waiting for converge
-sleep(60);
+echo "Running " . __FILE__ . "\n";
+error_log("Running " . __FILE__);
